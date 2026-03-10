@@ -1,0 +1,30 @@
+[sigma]
+0
+1
+[end]
+[nodes]
+q1
+q2
+q3
+[end]
+[start]
+q1
+[end]
+[final]
+q3
+[end]
+[relations]
+q1 + 1 = q1
+q1 + 0 = q2
+q2 + 1 = q1
+q2 + 0 = q3
+q3 + 1 = q1
+q3 + 0 = q1
+[end]
+[input]
+1
+0
+1
+0
+0
+[end]
