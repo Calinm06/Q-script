@@ -1,3 +1,4 @@
+#checks if a string is ended in two zeros
 [sigma]
 0
 1
